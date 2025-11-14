@@ -1,0 +1,30 @@
+moark-gps-app/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── firebase.json
+├── .firebaserc
+├── package.json
+├── tsconfig.json (if using TypeScript)
+├── .env.example
+├── src/
+│   ├── index.jsx
+│   ├── App.jsx
+│   ├── pages/
+│   │   └── Dashboard.jsx
+│   ├── components/
+│   │   └── TruckCard.jsx
+│   ├── hooks/
+│   │   └── useStopLogic.js
+│   ├── firebase/
+│   │   └── firebaseConfig.js
+│   └── assets/
+│       └── logo.png
+├── docs/
+│   ├── firestore-schema.md
+│   ├── deployment-guide.md
+│   └── feature-roadmap.md
+└── branding/
+    ├── colors.md
+    ├── fonts.md
+    └── splash-screen.png
